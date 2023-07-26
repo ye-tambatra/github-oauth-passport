@@ -19,9 +19,8 @@ function App() {
           setUser(null);
         }
       })
-      .catch((error) => {
+      .catch(() => {
         console.log("Failed to logout");
-        console.log("Error: ", error);
       });
   }
 
@@ -44,8 +43,6 @@ function App() {
         });
     }
   }, []);
-
-  console.log(user);
 
   return (
     <div>
