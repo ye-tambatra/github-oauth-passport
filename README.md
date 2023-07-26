@@ -1,6 +1,6 @@
 ## Required .env variables for the <b>client</b>
 
-- VITE_SERVER_URL : <i>Url of the server (in case you're doing on it locally, it will be just <b>http://localhost:\<Your port\></b>)</i>
+- VITE_SERVER_URL : <i>Url of the server (in case you're doing on it locally, it will be just <b>http://localhost:<Your port\></b>)</i>
 
 ## Required .env variables for the <b>server</b>
 
